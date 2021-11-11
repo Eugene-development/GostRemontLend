@@ -158,7 +158,7 @@
                   </a>
                   <h1
                     class="mt-4 text-4xl tracking-tight font-extrabold text-white sm:mt-5 sm:text-6xl lg:mt-6 xl:text-6xl">
-                    <span class="block">Ремонт помещений</span>
+                    <span class="block">Ремонт квартир</span>
                     <span
                       class="pb-3 block bg-clip-text text-transparent bg-gradient-to-r from-green-200 to-cyan-400 sm:pb-5">любой сложности</span>
                   </h1>
@@ -255,7 +255,7 @@
                 Решили сделать ремонт?
               </p>
               <p class="mt-5 max-w-prose mx-auto text-xl text-gray-500">
-                Это интересный творческий процесс, который разнообразит вашу жизнь и превнесёт множество красок в прямом и переносном смысле. Но не всегда &#129299;
+                Это интересный и творческий процесс, который разнообразит вашу жизнь и превнесёт множество красок в прямом и переносном смысле. Но не всегда &#129299;
               </p>
             </div>
             <div class="mt-12 ">
@@ -335,7 +335,7 @@
                         </svg>
                       </span>
                       </div>
-                      <h3 class="mt-8 text-lg font-medium text-gray-900 tracking-tight">Simple Queues</h3>
+                      <h3 class="mt-8 text-lg font-medium text-gray-900 tracking-tight">Проект</h3>
                       <p class="mt-5 text-base text-gray-500">
                         Дизайн-проект для каждого клиента вне зависимости какой ремонт вы будете делать
                       </p>
