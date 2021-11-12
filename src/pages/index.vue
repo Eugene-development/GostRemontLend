@@ -165,7 +165,7 @@
                     Дарим каждому клиенту дизайн проект!
                   </p>
                   <div class="mt-10 sm:mt-12">
-                    <form action="#" class="sm:max-w-xl sm:mx-auto lg:mx-0">
+                    <form @submit.prevent="sendPhone" class="sm:max-w-xl sm:mx-auto lg:mx-0">
                       <div class="sm:flex">
                         <div class="min-w-0 flex-1">
                           <label for="email" class="sr-only">Phone</label>
@@ -673,7 +673,8 @@ import {mapActions, mapGetters} from "vuex";
 export default {
   methods: {
     ...mapActions({
-      'updatePhone':'leads/phone/updatePhone'
+      'updatePhone':'leads/phone/updatePhone',
+      'sendPhone': 'leads/phone/sendPhone'
     })
   },
   computed: {
