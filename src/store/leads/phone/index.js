@@ -6,7 +6,6 @@ export const state = () => ({
 export const actions = {
   updatePhone({commit, state}, e) {
     const rulePhone = {phone: e.target.value};
-    console.log(rulePhone)
     commit('UPDATE_PHONE', rulePhone)
   }
 };
