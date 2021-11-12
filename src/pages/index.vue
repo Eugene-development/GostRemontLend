@@ -467,7 +467,7 @@
             <div class="mt-12 mx-auto max-w-md px-4 grid gap-8 sm:max-w-lg sm:px-6 lg:px-8 lg:grid-cols-3 lg:max-w-7xl">
               <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
                 <div class="flex-shrink-0">
-                  <img class="h-48 w-full object-cover"
+                  <img class="h-48 w-full object-cover transition delay-150 duration-300 ease-in-out"
                        src="https://thumb.tildacdn.com/tild3964-3864-4430-a562-393931336363/-/resize/600x/-/format/webp/17.jpg"
                        alt="">
                 </div>

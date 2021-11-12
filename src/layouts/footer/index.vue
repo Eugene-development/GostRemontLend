@@ -164,17 +164,17 @@
         </div>
         <div class="mt-8 xl:mt-0">
           <h3 class="text-lg font-semibold  tracking-wider uppercase">
-            Подписаться на новости
+            Запрос на коммерческое предложение
           </h3>
           <p class="mt-4 text-base ">
-            Будьте в курсе об информации об акциях от нашей компании
+            Отправьте вашу почту и получите актуальную информацию о нашей компании
           </p>
           <form class="mt-4 sm:flex sm:max-w-md">
             <label for="emailAddress" class="sr-only">Email address</label>
             <input type="email" id="emailAddress" required class="appearance-none min-w-0 w-full bg-white border border-transparent rounded-md py-2 px-4 text-base  placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white focus:border-white focus:placeholder-gray-400" placeholder="Ваша почта">
             <div class="mt-3 rounded-md sm:mt-0 sm:ml-3 sm:flex-shrink-0">
               <button type="submit" class="w-full bg-gradient-to-r from-teal-700 to-cyan-900 border border-transparent rounded-md py-2 px-4 flex items-center justify-center text-base font-medium text-white focus:outline-none focus:ring-2 focus:ring-offset-2 ">
-                Подписаться
+                Ваша почта
               </button>
             </div>
           </form>
