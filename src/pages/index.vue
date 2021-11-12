@@ -120,8 +120,7 @@
                   free trial</a>
               </div>
               <div class="mt-6 px-5">
-                <p class="text-center text-base font-medium text-gray-500">Existing customer? <a href="#"
-                                                                                                 class="text-gray-900 hover:underline">Login</a>
+                <p class="text-center text-base font-medium text-gray-500">Existing customer? <a href="#" class="text-gray-900 hover:underline">Login</a>
                 </p>
               </div>
             </div>
@@ -170,8 +169,11 @@
                       <div class="sm:flex">
                         <div class="min-w-0 flex-1">
                           <label for="email" class="sr-only">Phone</label>
-                          <input id="email" type="email" placeholder="Запишите ваш телефон"
-                                 class="block w-full px-4 py-3 rounded-md border-0 text-base text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-cyan-400 focus:ring-offset-gray-900">
+                          <input
+                            :value="rulePhone.phone"
+                            @input="updatePhone"
+                            id="email" type="email" placeholder="Запишите ваш телефон"
+                            class="block w-full px-4 py-3 rounded-md border-0 text-base text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-cyan-400 focus:ring-offset-gray-900">
                         </div>
                         <div class="mt-3 sm:mt-0 sm:ml-3">
                           <button type="submit"
@@ -664,3 +666,21 @@
     </div>
   </div>
 </template>
+
+<script>
+import {mapActions, mapGetters} from "vuex";
+
+export default {
+  methods: {
+    ...mapActions({
+      'updatePhone':'leads/phone/updatePhone'
+    })
+  },
+  computed: {
+    ...mapGetters({
+      'rulePhone': 'leads/phone/rulePhone'
+    }),
+  },
+}
+</script>
+
