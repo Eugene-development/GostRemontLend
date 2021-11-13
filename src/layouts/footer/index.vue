@@ -1,6 +1,6 @@
 <template>
 <div>
-  <div class="w-screen px-12 py-20 bg-gray-50">
+  <div class="w-screen px-12 py-20 bg-gray-50" id="anchor6">
     <div class="grid grid-cols-2 gap-24 md:grid-cols-6 lg:grid-cols-4">
       <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
         <img class="h-22" src="/Logo/Logo_shir_6.svg" alt="Tuple">
@@ -169,7 +169,7 @@
           <p class="mt-4 text-base ">
             Отправьте вашу почту и получите актуальную информацию о нашей компании, выполняемых работах и ценах
           </p>
-          <form class="mt-4 sm:flex sm:max-w-md">
+          <form @submit.prevent="sendEmail" class="mt-4 sm:flex sm:max-w-md">
             <label for="emailAddress" class="sr-only">Email address</label>
             <input
               :value="ruleEmail.email"
@@ -235,7 +235,8 @@ import {mapActions, mapGetters} from "vuex";
 export default {
   methods: {
     ...mapActions({
-      'updateEmail':'leads/email/updateEmail'
+      'updateEmail':'leads/email/updateEmail',
+      'sendEmail': 'leads/email/sendEmail'
     })
   },
   computed: {

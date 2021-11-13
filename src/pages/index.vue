@@ -54,13 +54,14 @@
                 </div>
               </div>
               <div class="hidden space-x-8 md:flex md:ml-10">
-                <a href="#anchor1" class="text-base font-medium text-white hover:text-gray-300">О нас</a>
-                <a href="#" class="text-center font-medium text-white hover:text-gray-300">Цены</a>
-                <a href="#" class="text-base font-medium text-white hover:text-gray-300">Акции</a>
+                <a href="#anchor1" class="text-base font-medium text-white hover:text-gray-300">Идея</a>
+                <a href="#anchor2" class="text-center font-medium text-white hover:text-gray-300">Решение</a>
+<!--                <a href="#anchor3" class="text-base font-medium text-white hover:text-gray-300">Примеры</a>-->
 <!--                <a href="#" class="text-base font-medium text-white hover:text-gray-300">Материалы</a>-->
-                <a href="#" class="text-base font-medium text-white hover:text-gray-300">Примеры</a>
-                <a href="#" class="text-base font-medium text-white hover:text-gray-300">Вопросы</a>
-                <a href="#" class="text-base font-medium text-white hover:text-gray-300">Контакты</a>
+                <a href="#anchor3" class="text-base font-medium text-white hover:text-gray-300">Клиенты</a>
+                <a href="#anchor4" class="text-base font-medium text-white hover:text-gray-300">Замер</a>
+                <a href="#anchor5" class="text-base font-medium text-white hover:text-gray-300">Галерея</a>
+                <a href="#anchor6" class="text-base font-medium text-white hover:text-gray-300">Контакты</a>
               </div>
             </div>
             <div class="hidden md:flex md:items-center md:space-x-6">
@@ -142,7 +143,7 @@
               <div
                 class="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 sm:text-center lg:px-0 lg:text-left lg:flex lg:items-center">
                 <div class="lg:py-24">
-                  <a href="#"
+                  <a href="#anchor6"
                      class="inline-flex items-center text-white bg-black rounded-full p-1 pr-2 sm:text-base lg:text-sm xl:text-base hover:text-gray-200">
                     <span
                       class="px-3 py-0.5 text-white text-xs font-semibold leading-5 uppercase tracking-wide bg-gradient-to-r from-green-500 to-cyan-600 rounded-full">Мы работаем</span>
@@ -168,11 +169,11 @@
                     <form @submit.prevent="sendPhone" class="sm:max-w-xl sm:mx-auto lg:mx-0">
                       <div class="sm:flex">
                         <div class="min-w-0 flex-1">
-                          <label for="email" class="sr-only">Phone</label>
+                          <label for="phone" class="sr-only">Phone</label>
                           <input
                             :value="rulePhone.phone"
                             @input="updatePhone"
-                            id="email" type="email" placeholder="Запишите ваш телефон"
+                            id="phone" type="tel" placeholder="Запишите ваш телефон"
                             class="block w-full px-4 py-3 rounded-md border-0 text-base text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-cyan-400 focus:ring-offset-gray-900">
                         </div>
                         <div class="mt-3 sm:mt-0 sm:ml-3">
@@ -268,7 +269,7 @@
         </div>
 
         <!-- Feature section with grid -->
-        <div class="relative bg-white py-16 sm:py-16 lg:py-24">
+        <div class="relative bg-white py-16 sm:py-16 lg:py-24" id="anchor2">
           <div class="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
             <h2 class="text-base font-semibold tracking-wider text-cyan-600 uppercase">Решение</h2>
             <p class="mt-2 text-3xl font-extrabold text-gray-900 tracking-tight sm:text-4xl">
@@ -455,12 +456,12 @@
         </div>
 
         <!-- Blog section -->
-        <div class="relative bg-gray-50 py-16 sm:py-24 lg:py-32">
+        <div class="relative bg-gray-50 py-16 sm:py-24 lg:py-32" id="anchor3">
           <div class="relative">
             <div class="text-center mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
-              <h2 class="text-base font-semibold tracking-wider text-cyan-600 uppercase">Стиль</h2>
+              <h2 class="text-base font-semibold tracking-wider text-cyan-600 uppercase">Клиенты</h2>
               <p class="mt-2 text-3xl font-extrabold text-gray-900 tracking-tight sm:text-4xl">
-                Примеры
+                Выбирайте ваш стиль
               </p>
               <p class="mt-5 mx-auto max-w-prose text-xl text-gray-500">
                 Более 1000 квартир отремонтировано "под ключ"нашими стараниями!
@@ -625,7 +626,7 @@
         </div>
 
         <!-- CTA Section -->
-        <div class="relative bg-gray-900">
+        <div class="relative bg-gray-900" id="anchor4">
           <div class="relative h-56 bg-indigo-600 sm:h-72 md:absolute md:left-0 md:h-full md:w-1/2">
             <img class="w-full h-full object-cover"
                  src="https://images.unsplash.com/photo-1525130413817-d45c1d127c42?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1920&q=60&sat=-100"
@@ -636,7 +637,7 @@
           <div class="relative mx-auto max-w-md px-4 py-12 sm:max-w-7xl sm:px-6 sm:py-20 md:py-28 lg:px-8 lg:py-32">
             <div class="md:ml-auto md:w-1/2 md:pl-10">
               <h2 class="text-base font-semibold uppercase tracking-wider text-gray-300">
-                Поддержка
+                Бесплатный замер
               </h2>
               <p class="mt-2 text-white text-3xl font-extrabold tracking-tight sm:text-4xl">
                 Мы готовы помочь вам
@@ -674,12 +675,13 @@ export default {
   methods: {
     ...mapActions({
       'updatePhone':'leads/phone/updatePhone',
-      'sendPhone': 'leads/phone/sendPhone'
+      'sendPhone': 'leads/phone/sendPhone',
     })
   },
   computed: {
     ...mapGetters({
-      'rulePhone': 'leads/phone/rulePhone'
+      'rulePhone': 'leads/phone/rulePhone',
+      'ruleEmail': 'leads/email/ruleEmail'
     }),
   },
 }

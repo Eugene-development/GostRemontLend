@@ -1,10 +1,8 @@
 export const state = () => ({
   rulePhone: {},
-
   apiMail: {
     baseURL: process.env.API_MAIL
   },
-
 });
 
 
@@ -14,11 +12,8 @@ export const actions = {
     commit('UPDATE_PHONE', rulePhone)
   },
 
-
-
   async sendPhone({state, commit}){
     const data = {phone: state.rulePhone.phone} ;
-    console.log(data)
     await this.$axios.$post('/sendPhone', data, state.apiMail);
   }
 };
