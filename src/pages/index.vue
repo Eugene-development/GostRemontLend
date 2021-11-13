@@ -56,8 +56,6 @@
               <div class="hidden space-x-8 md:flex md:ml-10">
                 <a href="#anchor1" class="text-base font-medium text-white hover:text-gray-300">Идея</a>
                 <a href="#anchor2" class="text-center font-medium text-white hover:text-gray-300">Решение</a>
-<!--                <a href="#anchor3" class="text-base font-medium text-white hover:text-gray-300">Примеры</a>-->
-<!--                <a href="#" class="text-base font-medium text-white hover:text-gray-300">Материалы</a>-->
                 <a href="#anchor3" class="text-base font-medium text-white hover:text-gray-300">Клиенты</a>
                 <a href="#anchor4" class="text-base font-medium text-white hover:text-gray-300">Замер</a>
                 <a href="#anchor5" class="text-base font-medium text-white hover:text-gray-300">Галерея</a>
@@ -69,9 +67,9 @@
               <p class="text-xl font-medium text-white hover:text-gray-300">
                 +7 (831) 423-23-89
               </p>
-              <!--          <a href="#" class="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md text-white bg-gray-600 hover:bg-gray-700">-->
-              <!--            Start free trial-->
-              <!--          </a>-->
+<!--                        <a href="#" class="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md text-white bg-gray-600 hover:bg-gray-700">-->
+<!--                          Записаться на замер-->
+<!--                        </a>-->
             </div>
           </nav>
         </div>
@@ -201,7 +199,7 @@
           </div>
           <div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
             <img class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
-                 src="https://thumb.tildacdn.com/tild3931-6462-4836-b435-353636303532/-/format/webp/udobno-hvoya_image_s.jpg" alt="">
+                 src="/image/image1.jpeg" alt="main">
 <!--                 src="https://noginsk-remont.ru/wp-content/uploads/2020/09/kosmetika.jpg" alt="">-->
 <!--                 src="https://stroy-okey.ru/wp-content/uploads/2020/10/2020-10-21_14-50-01.png" alt="">-->
             <!--             src="https://remont-kvartir-v-msk.ru/uploads/posts/2016-04/1459917460_istock_000016196507large_shironosov.jpg" alt="">-->
@@ -269,7 +267,7 @@
             </div>
             <div class="mt-12 ">
               <img class="rounded-lg shadow-xl ring-1 ring-black ring-opacity-5 mx-auto"
-                   src="https://media.mycredit.ua/assets/images/blog/2019/july/Remont_v_spalne.png" alt="">
+                   src="/image/idea.png" alt="idea">
             </div>
           </div>
         </div>
@@ -433,8 +431,8 @@
                 <div
                   class="aspect-w-10 aspect-h-6 rounded-xl shadow-xl overflow-hidden sm:aspect-w-16 sm:aspect-h-7 lg:aspect-none lg:h-full">
                   <img class="object-cover lg:h-full lg:w-full"
-                       src="https://static.tildacdn.com/tild3165-3232-4034-b461-343834396163/2_1.jpg"
-                       alt="">
+                       src="/image/S.jpeg"
+                       alt="specialist">
                 </div>
               </div>
             </div>
@@ -477,8 +475,8 @@
               <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
                 <div class="flex-shrink-0">
                   <img class="h-48 w-full object-cover transition delay-150 duration-300 ease-in-out"
-                       src="https://thumb.tildacdn.com/tild3964-3864-4430-a562-393931336363/-/resize/600x/-/format/webp/17.jpg"
-                       alt="">
+                       src="/image/1.jpeg"
+                       alt="loft">
                 </div>
                 <div class="flex-1 bg-white p-6 flex flex-col justify-between">
                   <div class="flex-1">
@@ -508,8 +506,8 @@
                     <div class="flex-shrink-0">
                       <a href="#">
                         <img class="h-12 w-12 rounded-full"
-                             src="https://thumb.tildacdn.com/tild3164-3233-4135-b530-633436376535/-/resize/600x/-/format/webp/12.jpg"
-                             alt="Roel Aufderehar">
+                             src="/Logo/favicon.ico"
+                             alt="Roel Aufderehar1">
                       </a>
                     </div>
                     <div class="ml-3">
@@ -531,7 +529,7 @@
               <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
                 <div class="flex-shrink-0">
                   <img class="h-48 w-full object-cover"
-                       src="https://thumb.tildacdn.com/tild3164-3233-4135-b530-633436376535/-/resize/600x/-/format/webp/12.jpg"
+                       src="/image/2.jpeg"
                        alt="">
                 </div>
                 <div class="flex-1 bg-white p-6 flex flex-col justify-between">
@@ -558,8 +556,8 @@
                     <div class="flex-shrink-0">
                       <a href="#">
                         <img class="h-12 w-12 rounded-full"
-                             src="https://thumb.tildacdn.com/tild3164-3233-4135-b530-633436376535/-/resize/600x/-/format/webp/12.jpg"
-                             alt="Roel Aufderehar">
+                             src="/Logo/favicon.ico"
+                             alt="Roel Aufderehar2">
                       </a>
                     </div>
                     <div class="ml-3">
@@ -581,7 +579,7 @@
               <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
                 <div class="flex-shrink-0">
                   <img class="h-48 w-full object-cover"
-                       src="https://thumb.tildacdn.com/tild6339-3666-4137-b261-343637343764/-/resize/600x/-/format/webp/cover.jpg"
+                       src="/image/3.jpeg"
                        alt="">
                 </div>
                 <div class="flex-1 bg-white p-6 flex flex-col justify-between">
@@ -608,8 +606,8 @@
                     <div class="flex-shrink-0">
                       <a href="#">
                         <img class="h-12 w-12 rounded-full"
-                             src="https://thumb.tildacdn.com/tild3164-3233-4135-b530-633436376535/-/resize/600x/-/format/webp/12.jpg"
-                             alt="Roel Aufderehar">
+                             src="/Logo/favicon.ico"
+                             alt="Roel Aufderehar3">
                       </a>
                     </div>
                     <div class="ml-3">

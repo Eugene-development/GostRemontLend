@@ -17,8 +17,8 @@ export default {
       { hid: 'description', name: 'description', content: 'Ремонт квартир с подарками и акциями!' }
     ],
     link: [
-      // { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-      { rel: 'icon', type: 'image/x-icon', href: 'https://static.tildacdn.com/tild3361-6433-4063-a334-376266633066/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/Logo/favicon.ico' }
+      // { rel: 'icon', type: 'image/x-icon', href: 'https://static.tildacdn.com/tild3361-6433-4063-a334-376266633066/favicon.ico' }
     ]
   },
   /*
