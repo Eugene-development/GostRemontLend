@@ -1,5 +1,6 @@
 export const state = () => ({
   rulePhone: {},
+  visibleFormPhone: true,
   apiMail: {
     baseURL: process.env.API_MAIL
   },
@@ -15,15 +16,20 @@ export const actions = {
   async sendPhone({state, commit}){
     const data = {phone: state.rulePhone.phone} ;
     await this.$axios.$post('/sendPhone', data, state.apiMail);
+
+    const visibleFormPhone = !state.visibleFormPhone;
+    commit('VISIBLE_FORM_PHONE', visibleFormPhone)
   }
 };
 
 
 export const mutations = {
   UPDATE_PHONE: (state, rulePhone) => state.rulePhone = rulePhone,
+  VISIBLE_FORM_PHONE: (state, visibleFormPhone) => state.visibleFormPhone = visibleFormPhone,
 };
 
 
 export const getters = {
-  rulePhone: state => state.rulePhone
+  rulePhone: state => state.rulePhone,
+  visibleFormPhone: state => state.visibleFormPhone
 };

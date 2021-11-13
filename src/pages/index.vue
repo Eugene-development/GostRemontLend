@@ -168,7 +168,7 @@
                   <div class="mt-10 sm:mt-12">
                     <form @submit.prevent="sendPhone" class="sm:max-w-xl sm:mx-auto lg:mx-0">
                       <div class="sm:flex">
-                        <div class="min-w-0 flex-1">
+                        <div v-if="visibleFormPhone" class="min-w-0 flex-1">
                           <label for="phone" class="sr-only">Phone</label>
                           <input
                             :value="rulePhone.phone"
@@ -176,11 +176,17 @@
                             id="phone" type="tel" placeholder="Запишите ваш телефон"
                             class="block w-full px-4 py-3 rounded-md border-0 text-base text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-cyan-400 focus:ring-offset-gray-900">
                         </div>
-                        <div class="mt-3 sm:mt-0 sm:ml-3">
+                        <div v-if="visibleFormPhone" class="mt-3 sm:mt-0 sm:ml-3">
                           <button type="submit"
                                   class="block w-full py-3 px-4 rounded-md shadow bg-gradient-to-r from-green-500 to-cyan-600 text-white font-medium hover:from-green-600 hover:to-cyan-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-cyan-400 focus:ring-offset-gray-900">
                             Отправить
                           </button>
+                        </div>
+                        <div v-if="!visibleFormPhone" class="mt-3 sm:mt-0 ">
+                          <span
+                            class="block w-full py-3 px-4 rounded-md shadow bg-gradient-to-r from-green-500 to-cyan-600 text-white font-medium hover:from-green-600 hover:to-cyan-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-cyan-400 focus:ring-offset-gray-900">
+                            Спасибо за доверие
+                          </span>
                         </div>
                       </div>
                       <p class="mt-3 text-sm text-gray-300 sm:mt-4">В течении дня с вами свяжется специалист и даст подробную консультацию.
@@ -681,7 +687,8 @@ export default {
   computed: {
     ...mapGetters({
       'rulePhone': 'leads/phone/rulePhone',
-      'ruleEmail': 'leads/email/ruleEmail'
+      'ruleEmail': 'leads/email/ruleEmail',
+      'visibleFormPhone': 'leads/phone/visibleFormPhone',
     }),
   },
 }

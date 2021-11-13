@@ -171,14 +171,19 @@
           </p>
           <form @submit.prevent="sendEmail" class="mt-4 sm:flex sm:max-w-md">
             <label for="emailAddress" class="sr-only">Email address</label>
-            <input
+            <input v-if="visibleFormEmail"
               :value="ruleEmail.email"
               @input="updateEmail"
               type="email" id="emailAddress" required class="appearance-none min-w-0 w-full bg-white border border-transparent rounded-md py-2 px-4 text-base  placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white focus:border-white focus:placeholder-gray-400" placeholder="Ваша почта">
             <div class="mt-3 rounded-md sm:mt-0 sm:ml-3 sm:flex-shrink-0">
-              <button type="submit" class="w-full bg-gradient-to-r from-teal-700 to-cyan-900 border border-transparent rounded-md py-2 px-4 flex items-center justify-center text-base font-medium text-white focus:outline-none focus:ring-2 focus:ring-offset-2 ">
+              <button v-if="visibleFormEmail" type="submit" class="w-full bg-gradient-to-r from-teal-700 to-cyan-900 border border-transparent rounded-md py-2 px-4 flex items-center justify-center text-base font-medium text-white focus:outline-none focus:ring-2 focus:ring-offset-2 ">
                 Отправить
               </button>
+            </div>
+            <div class="mt-3 rounded-md sm:mt-0 sm:flex-shrink-0">
+              <span v-if="!visibleFormEmail" class="w-full bg-gradient-to-r from-teal-700 to-cyan-900 border border-transparent rounded-md py-2 px-4 flex items-center justify-center text-base font-medium text-white focus:outline-none focus:ring-2 focus:ring-offset-2 ">
+                Ожидайте письмо на почту
+              </span>
             </div>
           </form>
         </div>
@@ -241,7 +246,8 @@ export default {
   },
   computed: {
     ...mapGetters({
-      'ruleEmail': 'leads/email/ruleEmail'
+      'ruleEmail': 'leads/email/ruleEmail',
+      'visibleFormEmail': 'leads/email/visibleFormEmail'
     }),
   },
 }
