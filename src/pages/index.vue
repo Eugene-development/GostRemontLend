@@ -68,7 +68,7 @@
                 +7 (831) 423-23-89
               </p>
 
-              <button @click="changeVisibleFormMeasurement" type="submit" class="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md text-white bg-gray-600 hover:bg-gray-700">
+              <button @click="changeVisibleFormMeasurement" type="submit" class="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md text-white bg-gradient-to-r from-green-600 to-cyan-700">
                 Записаться на замер
               </button>
             </div>
@@ -177,7 +177,7 @@
                         </div>
                         <div v-if="visibleFormPhone" class="mt-3 sm:mt-0 sm:ml-3">
                           <button type="submit"
-                                  class="block w-full py-3 px-4 rounded-md shadow bg-gradient-to-r from-green-500 to-cyan-600 text-white font-medium hover:from-green-600 hover:to-cyan-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-cyan-400 focus:ring-offset-gray-900">
+                                  class="block w-full py-3 px-4 rounded-md shadow bg-gradient-to-r from-green-600 to-cyan-700 text-white font-medium hover:from-green-600 hover:to-cyan-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-cyan-400 focus:ring-offset-gray-900">
                             Отправить
                           </button>
                         </div>
@@ -424,7 +424,7 @@
         </div>
 
         <!-- Testimonial section -->
-        <div class="pb-16 bg-gradient-to-r from-green-400 via-green-600 to-green-500 lg:pb-0 lg:z-10 lg:relative">
+        <div class="pb-16 bg-gradient-to-r from-green-400 via-green-600 to-green-500 lg:pb-0 lg:z-5 lg:relative">
           <div class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-3 lg:gap-8">
             <div class="relative lg:-my-8">
               <div aria-hidden="true" class="absolute inset-x-0 top-0 h-1/2 bg-white lg:hidden"></div>
@@ -646,23 +646,33 @@
               </p>
               <div class="mt-8">
                 <div class="inline-flex rounded-md shadow">
-                  <span @click="changeVisibleFormMeasurement"
-                     class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-gray-900 bg-white hover:bg-gray-50">
+                  <button @click.prevent="changeVisibleFormMeasurement"
+                     class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-gray-50 bg-gradient-to-r from-green-600 to-cyan-700">
                     Записаться на замер
                     <!-- Heroicon name: solid/external-link -->
-                    <svg class="-mr-1 ml-3 h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
+                    <svg class="-mr-1 ml-3 h-5 w-5 text-gray-50" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
                          fill="currentColor" aria-hidden="true">
                       <path
                         d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z"/>
                       <path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z"/>
                     </svg>
-                  </span>
+                  </button>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </main>
+
+
+      <transition
+        enter-active-class="transform transition ease-in-out duration-500 sm:duration-700"
+        enter-class="translate-x-full"
+        enter-to-class="translate-x-0"
+        leave-active-class="transform transition ease-in-out duration-500 sm:duration-700"
+        leave-class="translate-x-0"
+        leave-to-class="translate-x-full"
+      >
 
       <div v-if="visibleFormMeasurement" class="fixed inset-0 overflow-hidden" aria-labelledby="slide-over-title" role="dialog" aria-modal="true">
         <div class="absolute inset-0 overflow-hidden">
@@ -681,14 +691,6 @@
               -->
 
 
-              <transition
-                enter-active-class="transform transition ease-in-out duration-500 sm:duration-700"
-                enter-class="translate-x-full"
-                enter-to-class="translate-x-0"
-                leave-active-class="transform transition ease-in-out duration-500 sm:duration-700"
-                leave-class="translate-x-0"
-                leave-to-class="translate-x-full"
-              >
 
                 <div  class="w-screen max-w-2xl">
                   <form  class="h-full flex flex-col bg-white shadow-xl overflow-y-scroll">
@@ -873,26 +875,14 @@
                     </div>
                   </form>
                 </div>
-
-              </transition>
-
             </div>
           </div>
         </div>
       </div>
+      </transition>
 
     </div>
-
-
-
-
-
   </div>
-
-
-
-
-
 </div>
 
 
