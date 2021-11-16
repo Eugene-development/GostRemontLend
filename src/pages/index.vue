@@ -772,6 +772,17 @@
                         <input type="text" name="project-name" id="client-phone" class="block w-full shadow-sm sm:text-sm focus:ring-green-500 focus:border-green-500 border-gray-300 rounded-md">
                       </div>
                     </div>
+                    <!-- Project name -->
+                    <div class="space-y-1 px-4 sm:space-y-0 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6 sm:py-5">
+                      <div>
+                        <label for="time" class="block text-sm font-medium text-gray-900 sm:mt-px sm:pt-2">
+                          Удобное время
+                        </label>
+                      </div>
+                      <div class="sm:col-span-2">
+                        <input type="text" name="project-name" id="time" class="block w-full shadow-sm sm:text-sm focus:ring-green-500 focus:border-green-500 border-gray-300 rounded-md">
+                      </div>
+                    </div>
 
                     <!-- Project description -->
                     <div class="space-y-1 px-4 sm:space-y-0 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6 sm:py-5">
