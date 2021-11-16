@@ -625,7 +625,7 @@
 
         <!-- CTA Section -->
         <div class="relative bg-gray-900" id="anchor4">
-          <div class="relative h-56 bg-indigo-600 sm:h-72 md:absolute md:left-0 md:h-full md:w-1/2">
+          <div class="relative h-56 bg-green-600 sm:h-72 md:absolute md:left-0 md:h-full md:w-1/2">
             <img class="w-full h-full object-cover"
                  src="https://images.unsplash.com/photo-1525130413817-d45c1d127c42?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1920&q=60&sat=-100"
                  alt="">
@@ -747,7 +747,7 @@
                         </label>
                       </div>
                       <div class="sm:col-span-2">
-                        <input type="text" name="project-name" id="name" class="block w-full shadow-sm sm:text-sm focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md">
+                        <input type="text" name="project-name" id="name" class="block w-full shadow-sm sm:text-sm focus:ring-green-500 focus:border-green-500 border-gray-300 rounded-md">
                       </div>
                     </div>
                     <!-- Project name -->
@@ -758,7 +758,7 @@
                         </label>
                       </div>
                       <div class="sm:col-span-2">
-                        <input type="text" name="project-name" id="address" class="block w-full shadow-sm sm:text-sm focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md">
+                        <input type="text" name="project-name" id="address" class="block w-full shadow-sm sm:text-sm focus:ring-green-500 focus:border-green-500 border-gray-300 rounded-md">
                       </div>
                     </div>
                     <!-- Project name -->
@@ -769,7 +769,7 @@
                         </label>
                       </div>
                       <div class="sm:col-span-2">
-                        <input type="text" name="project-name" id="client-phone" class="block w-full shadow-sm sm:text-sm focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md">
+                        <input type="text" name="project-name" id="client-phone" class="block w-full shadow-sm sm:text-sm focus:ring-green-500 focus:border-green-500 border-gray-300 rounded-md">
                       </div>
                     </div>
 
@@ -781,7 +781,7 @@
                         </label>
                       </div>
                       <div class="sm:col-span-2">
-                        <textarea id="project-description" name="project-description" rows="3" class="block w-full shadow-sm sm:text-sm focus:ring-indigo-500 focus:border-indigo-500 border border-gray-300 rounded-md"></textarea>
+                        <textarea id="project-description" name="project-description" rows="3" class="block w-full shadow-sm sm:text-sm focus:ring-green-500 focus:border-green-500 border border-gray-300 rounded-md"></textarea>
                       </div>
                     </div>
 
@@ -793,7 +793,7 @@
   <!--                        <div class="space-y-5 sm:mt-0">-->
   <!--                          <div class="relative flex items-start">-->
   <!--                            <div class="absolute flex items-center h-5">-->
-  <!--                              <input id="public-access" name="privacy" aria-describedby="public-access-description" type="radio" class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300" checked>-->
+  <!--                              <input id="public-access" name="privacy" aria-describedby="public-access-description" type="radio" class="focus:ring-green-500 h-4 w-4 text-green-600 border-gray-300" checked>-->
   <!--                            </div>-->
   <!--                            <div class="pl-7 text-sm">-->
   <!--                              <label for="public-access" class="font-medium text-gray-900">-->
@@ -806,7 +806,7 @@
   <!--                          </div>-->
   <!--                          <div class="relative flex items-start">-->
   <!--                            <div class="absolute flex items-center h-5">-->
-  <!--                              <input id="restricted-access" name="privacy" aria-describedby="restricted-access-description" type="radio" class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300">-->
+  <!--                              <input id="restricted-access" name="privacy" aria-describedby="restricted-access-description" type="radio" class="focus:ring-green-500 h-4 w-4 text-green-600 border-gray-300">-->
   <!--                            </div>-->
   <!--                            <div class="pl-7 text-sm">-->
   <!--                              <label for="restricted-access" class="font-medium text-gray-900">-->
@@ -819,7 +819,7 @@
   <!--                          </div>-->
   <!--                          <div class="relative flex items-start">-->
   <!--                            <div class="absolute flex items-center h-5">-->
-  <!--                              <input id="private-access" name="privacy" aria-describedby="private-access-description" type="radio" class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300">-->
+  <!--                              <input id="private-access" name="privacy" aria-describedby="private-access-description" type="radio" class="focus:ring-green-500 h-4 w-4 text-green-600 border-gray-300">-->
   <!--                            </div>-->
   <!--                            <div class="pl-7 text-sm">-->
   <!--                              <label for="private-access" class="font-medium text-gray-900">-->
@@ -838,9 +838,9 @@
 
   <!--                        <div class="flex flex-col space-between space-y-4 sm:flex-row sm:items-center sm:space-between sm:space-y-0">-->
   <!--                          <div class="flex-1">-->
-  <!--                            <a href="#" class="group flex items-center text-sm text-indigo-600 hover:text-indigo-900 font-medium space-x-2.5">-->
+  <!--                            <a href="#" class="group flex items-center text-sm text-green-600 hover:text-green-900 font-medium space-x-2.5">-->
   <!--                              &lt;!&ndash; Heroicon name: solid/link &ndash;&gt;-->
-  <!--                              <svg class="h-5 w-5 text-indigo-500 group-hover:text-indigo-900" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">-->
+  <!--                              <svg class="h-5 w-5 text-green-500 group-hover:text-green-900" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">-->
   <!--                                <path fill-rule="evenodd" d="M12.586 4.586a2 2 0 112.828 2.828l-3 3a2 2 0 01-2.828 0 1 1 0 00-1.414 1.414 4 4 0 005.656 0l3-3a4 4 0 00-5.656-5.656l-1.5 1.5a1 1 0 101.414 1.414l1.5-1.5zm-5 5a2 2 0 012.828 0 1 1 0 101.414-1.414 4 4 0 00-5.656 0l-3 3a4 4 0 105.656 5.656l1.5-1.5a1 1 0 10-1.414-1.414l-1.5 1.5a2 2 0 11-2.828-2.828l3-3z" clip-rule="evenodd" />-->
   <!--                              </svg>-->
   <!--                              <span>-->
@@ -869,10 +869,10 @@
                 <!-- Action buttons -->
                 <div class="flex-shrink-0 px-4 border-t border-gray-200 py-5 sm:px-6">
                   <div class="space-x-3 flex justify-end">
-                    <button type="button" class="bg-white py-2 px-4 border border-gray-300 rounded-md shadow-sm text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+                    <button type="button" class="bg-white py-2 px-4 border border-gray-300 rounded-md shadow-sm text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500">
                       Отменить
                     </button>
-                    <button type="submit" class="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+                    <button type="submit" class="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-gradient-to-r from-green-500 to-cyan-600 hover:bg-green-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500">
                       Отправить
                     </button>
                   </div>
