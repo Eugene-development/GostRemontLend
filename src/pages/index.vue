@@ -68,7 +68,7 @@
                 +7 (831) 423-23-89
               </p>
 
-              <button @click="changeVisibleFormMeasurement" type="submit" class="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md text-white bg-gradient-to-r from-green-600 to-cyan-700">
+              <button @click="changeVisibleFormMeasurement" type="button" class="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md text-white bg-gradient-to-r from-green-600 to-cyan-700">
                 Записаться на замер
               </button>
             </div>
@@ -865,10 +865,10 @@
                     <!-- Action buttons -->
                     <div class="flex-shrink-0 px-4 border-t border-gray-200 py-5 sm:px-6">
                       <div class="space-x-3 flex justify-end">
-                        <button type="button" class="bg-white py-2 px-4 border border-gray-300 rounded-md shadow-sm text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500">
+                        <button @click="changeVisibleFormMeasurement" type="button" class="bg-white py-2 px-4 border border-gray-300 rounded-md shadow-sm text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500">
                           Отменить
                         </button>
-                        <button type="submit" class="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-gradient-to-r from-green-500 to-cyan-600 hover:bg-green-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500">
+                        <button type="submit" class="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-gradient-to-r from-green-600 to-cyan-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500">
                           Отправить
                         </button>
                       </div>
