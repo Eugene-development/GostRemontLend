@@ -4,6 +4,10 @@ export const state = () => ({
   ruleMeasurementAddress: {},
   ruleMeasurementTime: {},
   ruleMeasurementComment: {},
+  visibleFormMeasurement: false,
+  apiMail: {
+    baseURL: process.env.API_MAIL
+  },
 });
 
 
@@ -27,6 +31,11 @@ export const actions = {
   updateMeasurementComment({commit, state}, e) {
     const ruleMeasurementComment = {measurementComment: e.target.value};
     commit('UPDATE_MEASUREMENT_COMMENT', ruleMeasurementComment)
+  },
+  changeVisibleFormMeasurement({commit, state}) {
+    console.log('123')
+    const visibleFormMeasurement = !state.visibleFormMeasurement;
+    commit('VISIBLE_FORM_MEASUREMENT', visibleFormMeasurement)
   }
 };
 
@@ -37,6 +46,7 @@ export const mutations = {
   UPDATE_MEASUREMENT_ADDRESS: (state, ruleMeasurementAddress) => state.ruleMeasurementAddress = ruleMeasurementAddress,
   UPDATE_MEASUREMENT_TIME: (state, ruleMeasurementTime) => state.ruleMeasurementTime = ruleMeasurementTime,
   UPDATE_MEASUREMENT_COMMENT: (state, ruleMeasurementComment) => state.ruleMeasurementComment = ruleMeasurementComment,
+  VISIBLE_FORM_MEASUREMENT: (state, visibleFormMeasurement) => state.visibleFormMeasurement = visibleFormMeasurement,
 };
 
 
@@ -45,5 +55,6 @@ export const getters = {
   ruleMeasurementPhone: state => state.ruleMeasurementPhone,
   ruleMeasurementAddress: state => state.ruleMeasurementAddress,
   ruleMeasurementTime: state => state.ruleMeasurementTime,
-  ruleMeasurementComment: state => state.ruleMeasurementComment
+  ruleMeasurementComment: state => state.ruleMeasurementComment,
+  visibleFormMeasurement: state => state.visibleFormMeasurement,
 };
