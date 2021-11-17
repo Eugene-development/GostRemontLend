@@ -13,23 +13,23 @@ export const state = () => ({
 
 export const actions = {
   updateMeasurementName({commit, state}, e) {
-    const ruleMeasurementName = {measurementName: e.target.value};
+    const ruleMeasurementName = {name: e.target.value};
     commit('UPDATE_MEASUREMENT_NAME', ruleMeasurementName)
   },
   updateMeasurementPhone({commit, state}, e) {
-    const ruleMeasurementPhone = {measurementPhone: e.target.value};
+    const ruleMeasurementPhone = {phone: e.target.value};
     commit('UPDATE_MEASUREMENT_PHONE', ruleMeasurementPhone)
   },
   updateMeasurementAddress({commit, state}, e) {
-    const ruleMeasurementAddress = {measurementAddress: e.target.value};
+    const ruleMeasurementAddress = {address: e.target.value};
     commit('UPDATE_MEASUREMENT_ADDRESS', ruleMeasurementAddress)
   },
   updateMeasurementTime({commit, state}, e) {
-    const ruleMeasurementTime = {measurementTime: e.target.value};
+    const ruleMeasurementTime = {time: e.target.value};
     commit('UPDATE_MEASUREMENT_TIME', ruleMeasurementTime)
   },
   updateMeasurementComment({commit, state}, e) {
-    const ruleMeasurementComment = {measurementComment: e.target.value};
+    const ruleMeasurementComment = {comment: e.target.value};
     commit('UPDATE_MEASUREMENT_COMMENT', ruleMeasurementComment)
   },
   changeVisibleFormMeasurement({commit, state}) {
@@ -38,12 +38,17 @@ export const actions = {
   },
   async sendMeasurement({state, commit}){
     const data = {
-      name: state.ruleEmail.ruleMeasurementName,
-      phone: state.ruleEmail.ruleMeasurementPhone,
-      address: state.ruleEmail.ruleMeasurementAddress,
-      time: state.ruleEmail.ruleMeasurementTime,
-      comment: state.ruleEmail.ruleMeasurementComment
+      name: state.ruleMeasurementName.name,
+      phone: state.ruleMeasurementPhone.phone,
+      address: state.ruleMeasurementAddress.address,
+      time: state.ruleMeasurementTime.time,
+      comment: state.ruleMeasurementComment.comment
     };
+
+    // const testObj = {gg:888}
+    // const spred = {...data, ...testObj}
+    // console.log(spred)
+
     await this.$axios.$post('/sendMeasurement', data, state.apiMail);
 
     const visibleFormMeasurement = false;
