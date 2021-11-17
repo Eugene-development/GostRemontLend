@@ -33,8 +33,20 @@ export const actions = {
     commit('UPDATE_MEASUREMENT_COMMENT', ruleMeasurementComment)
   },
   changeVisibleFormMeasurement({commit, state}) {
-    console.log('123')
     const visibleFormMeasurement = !state.visibleFormMeasurement;
+    commit('VISIBLE_FORM_MEASUREMENT', visibleFormMeasurement)
+  },
+  async sendMeasurement({state, commit}){
+    const data = {
+      name: state.ruleEmail.ruleMeasurementName,
+      phone: state.ruleEmail.ruleMeasurementPhone,
+      address: state.ruleEmail.ruleMeasurementAddress,
+      time: state.ruleEmail.ruleMeasurementTime,
+      comment: state.ruleEmail.ruleMeasurementComment
+    };
+    await this.$axios.$post('/sendMeasurement', data, state.apiMail);
+
+    const visibleFormMeasurement = false;
     commit('VISIBLE_FORM_MEASUREMENT', visibleFormMeasurement)
   }
 };

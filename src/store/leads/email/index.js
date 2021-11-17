@@ -13,7 +13,7 @@ export const actions = {
     commit('UPDATE_EMAIL', ruleEmail)
   },
   async sendEmail({state, commit}){
-    const data = {email: state.ruleEmail.email} ;
+    const data = {email: state.ruleEmail.email};
     await this.$axios.$post('/sendEmail', data, state.apiMail);
 
     const visibleFormEmail = !state.visibleFormEmail;
