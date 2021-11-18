@@ -17,7 +17,7 @@
     </div>
   </div>
 
-  <footer class="bg-gradient-to-r from-green-50 to-green-100" aria-labelledby="footerHeading">
+  <footer class="bg-gradient-to-tr from-green-50 to-green-400" aria-labelledby="footerHeading">
     <h2 id="footerHeading" class="sr-only">Footer</h2>
     <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 text-teal-900">
       <div class="xl:grid xl:grid-cols-3 xl:gap-8">
