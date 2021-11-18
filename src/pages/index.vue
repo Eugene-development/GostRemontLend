@@ -4,7 +4,7 @@
       <div class="relative overflow-hidden">
         <header class="relative">
           <div class="bg-gray-900 p-4">
-            <nav class="relative max-w-full mx-4 flex items-center justify-between px-1 sm:px-2" aria-label="Global">
+            <nav class="relative max-w-full mx-8 flex items-center justify-between px-1 sm:px-2" aria-label="Global">
               <div class="flex items-center flex-1">
                 <div class="flex items-center justify-between w-full md:w-auto">
                   <a href="#">
@@ -31,7 +31,7 @@
                   <a href="#anchor2" class="text-center font-medium text-white hover:text-gray-300">Решение</a>
                   <a href="#anchor3" class="text-base font-medium text-white hover:text-gray-300">Клиенты</a>
                   <a href="#anchor4" class="text-base font-medium text-white hover:text-gray-300">Замер</a>
-                  <a href="#anchor5" class="text-base font-medium text-white hover:text-gray-300">Галерея</a>
+<!--                  <a href="#anchor5" class="text-base font-medium text-white hover:text-gray-300">Галерея</a>-->
                   <a href="#anchor6" class="text-base font-medium text-white hover:text-gray-300">Контакты</a>
                 </div>
               </div>
