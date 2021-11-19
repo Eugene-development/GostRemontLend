@@ -14,7 +14,7 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Ремонт квартир с подарками и акциями!' }
+      { hid: 'description', name: 'description', content: 'Ремонт квартир в Нижнем Новгороде. Выполняем работы "под ключ" и частичный ремонт. Действуют акции и скидки на материалы.' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/Logo/favicon.ico' }

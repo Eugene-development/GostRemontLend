@@ -29,7 +29,7 @@
                 <div class="hidden space-x-8 md:flex md:ml-10">
                   <a href="#anchor1" class="text-base font-medium text-white hover:text-gray-300">Идея</a>
                   <a href="#anchor2" class="text-center font-medium text-white hover:text-gray-300">Решение</a>
-                  <a href="#anchor3" class="text-base font-medium text-white hover:text-gray-300">Клиенты</a>
+                  <a href="#anchor3" class="text-base font-medium text-white hover:text-gray-300">Стиль</a>
                   <a href="#anchor4" class="text-base font-medium text-white hover:text-gray-300">Замер</a>
 <!--                  <a href="#anchor5" class="text-base font-medium text-white hover:text-gray-300">Галерея</a>-->
                   <a href="#anchor6" class="text-base font-medium text-white hover:text-gray-300">Контакты</a>
@@ -431,64 +431,64 @@
             </div>
           </div>
 
-          <!-- Blog section -->
+
           <div class="relative bg-gray-50 py-16 sm:py-24 lg:py-32" id="anchor3">
             <div class="relative">
               <div class="text-center mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
-                <h2 class="text-base font-semibold tracking-wider text-cyan-600 uppercase">Клиенты</h2>
+                <h2 class="text-base font-semibold tracking-wider text-cyan-600 uppercase">Стиль</h2>
                 <p class="mt-2 text-3xl font-extrabold text-gray-900 tracking-tight sm:text-4xl">
                   Выбирайте ваш стиль
                 </p>
                 <p class="mt-5 mx-auto max-w-prose text-xl text-gray-500">
-                  Более 1000 квартир отремонтировано "под ключ"нашими стараниями!
+                  Более 1000 квартир отремонтировано "под ключ"нашими стараниями! В разном стиле и разным масштабом работ. В любом случае наша экспертиза позволяет решить широкий спектр задач.
                 </p>
               </div>
               <div class="mt-12 mx-auto max-w-md px-4 grid gap-8 sm:max-w-lg sm:px-6 lg:px-8 lg:grid-cols-3 lg:max-w-7xl">
                 <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
                   <div class="flex-shrink-0">
-                    <img class="h-48 w-full object-cover transition delay-150 duration-300 ease-in-out"
+                    <img class="h-48 w-full object-cover"
                          src="/image/1.jpeg"
-                         alt="loft">
+                         alt="loft"
+                    >
                   </div>
                   <div class="flex-1 bg-white p-6 flex flex-col justify-between">
                     <div class="flex-1">
-                      <p class="mb-1 text-sm font-medium text-cyan-600">
-                        Стиль Лофт
+                      <p class="text-sm font-medium text-cyan-600">
+                        <a href="#" class="hover:underline">
+                          Стиль Лофт
+                        </a>
                       </p>
-                      <p class="text-base font-semibold text-gray-900 flex space-x-1">
-                        <span>
-                          ул. Украинская
-                        </span>
-                        <span aria-hidden="true">
-                            &middot;
-                        </span>
-                        <span>
-                            48 м/кв
-                        </span>
-                      </p>
-                      <p class="mt-3 text-base text-gray-500">
-                        Однокомнатную квартиру застройщик сдал без какой-либо отделки.
-                        Компания "Гостремонт" разработала и согласовала дизайн-проект будущей квартиры с планировавочным
-                        решением и функциональным дизайном в стиле LOFT.
-                        Сохранив обособленным спальное место, нам удалось расширить жизненное пространство для молодой
-                        семьи.
-                      </p>
+                      <a href="#" class="block mt-2">
+                        <p class="text-base font-semibold text-gray-900">
+                          ул. Украинская - 48 кв/м
+                        </p>
+                        <p class="mt-3 text-base text-gray-500">
+                          Однокомнатную квартиру застройщик сдал без какой-либо отделки.
+                          Компания "Гостремонт" разработала и согласовала дизайн-проект будущей квартиры с планировавочным
+                          решением и функциональным дизайном в стиле LOFT.
+                          Сохранив обособленным спальное место, нам удалось расширить жизненное пространство для молодой
+                          семьи.
+                        </p>
+                      </a>
                     </div>
                     <div class="mt-6 flex items-center">
                       <div class="flex-shrink-0">
                         <a href="#">
-                          <img class="h-12 w-12 rounded-full"
-                               src="/Logo/favicon.ico"
-                               alt="Roel Aufderehar1">
+                          <img class="h-10 w-10 rounded-full" src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="Roel Aufderehar">
                         </a>
                       </div>
                       <div class="ml-3">
                         <p class="text-sm font-medium text-gray-900">
-                          Людмила
+                          <a href="#" class="hover:underline">
+                            Александр Ф.
+                          </a>
                         </p>
                         <div class="flex space-x-1 text-sm text-gray-500">
+<!--                          <time datetime="2020-03-16">-->
+<!--                            16 марта 2020-->
+<!--                          </time>-->
                           <p>
-                            "Мы с мужем даже не ожидали, что получится так красиво и стильно."
+                            "Мы с женой даже не ожидали, что получится так красиво и стильно."
                           </p>
                         </div>
                       </div>
@@ -504,37 +504,35 @@
                   </div>
                   <div class="flex-1 bg-white p-6 flex flex-col justify-between">
                     <div class="flex-1">
-                      <p class="mb-1 text-sm font-medium text-cyan-600">
-                        Стиль Модерн
+                      <p class="text-sm font-medium text-cyan-600">
+                        <a href="#" class="hover:underline">
+                          Стиль Модерн
+                        </a>
                       </p>
-                      <p class="text-base font-semibold text-gray-900 flex space-x-1">
-                        <span>
-                          ул. Космонавта Комарова
-                        </span>
-                        <span aria-hidden="true">
-                            &middot;
-                        </span>
-                        <span>
-                            42 м/кв
-                        </span>
-                      </p>
-                      <p class="mt-3 text-base text-gray-500">
-                        Проект обновления квартиры в кирпичной пятиэтажки застройки конца 70-х годов. Материалы подобранные к проекту создали лёгкое и светлое настроение от пребывания в этой квартире. Все пожелания заказчика были учтены и реализованы в полной мере, есть даже рабочая зона.
-                      </p>
+                      <a href="#" class="block mt-2">
+                        <p class="text-base font-semibold text-gray-900">
+                          ул. Космонавта Комарова - 42 кв/м
+                        </p>
+                        <p class="mt-3 text-base text-gray-500">
+                          Проект обновления квартиры в кирпичной пятиэтажки застройки конца 70-х годов. Материалы подобранные к проекту создали лёгкое и светлое настроение от пребывания в этой квартире. Все пожелания заказчика были учтены и реализованы в полной мере, есть даже рабочая зона.                        </p>
+                      </a>
                     </div>
                     <div class="mt-6 flex items-center">
                       <div class="flex-shrink-0">
                         <a href="#">
-                          <img class="h-12 w-12 rounded-full"
-                               src="/Logo/favicon.ico"
-                               alt="Roel Aufderehar2">
+                          <img class="h-10 w-10 rounded-full" src="https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="Brenna Goyette">
                         </a>
                       </div>
                       <div class="ml-3">
                         <p class="text-sm font-medium text-gray-900">
-                          Пётр Иванович
+                          <a href="#" class="hover:underline">
+                            Светлана
+                          </a>
                         </p>
-                        <div class="flex space-x-1 text-sm text-gray-500">
+                        <div class="space-x-1 text-sm text-gray-500">
+<!--                          <time datetime="2020-03-10">-->
+<!--                            24 января 2021-->
+<!--                          </time>-->
                           <p>
                             "Всё устроило более чем. По срокам всё соблюдено на отлично!"
                           </p>
@@ -546,45 +544,41 @@
 
                 <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
                   <div class="flex-shrink-0">
-                    <img class="h-48 w-full object-cover"
-                         src="/image/3.jpeg"
-                         alt="classic">
+                    <img class="h-48 w-full object-cover" src="https://images.unsplash.com/photo-1492724441997-5dc865305da7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80" alt="">
                   </div>
                   <div class="flex-1 bg-white p-6 flex flex-col justify-between">
                     <div class="flex-1">
-                      <p class="mb-1 text-sm font-medium text-cyan-600">
-                        Классический стиль
+                      <p class="text-sm font-medium text-cyan-600">
+                        <a href="#" class="hover:underline">
+                          Классический стиль
+                        </a>
                       </p>
-                      <p class="text-base font-semibold text-gray-900 flex space-x-1">
-                        <span>
-                          ул. Республиканская
-                        </span>
-                        <span aria-hidden="true">
-                            &middot;
-                        </span>
-                        <span>
-                            102 м/кв
-                        </span>
-                      </p>
-                      <p class="mt-3 text-base text-gray-500">
-                        Ремонт новой трёхкомнатной квартиры в новом жилом комплексе был начат сразу после сдачи застройщиком дома в эксплуатацию. Дизайнер нашёл оптимальное решение в классических спокойных и светлых тонах. Прекрасным решением было поставить двери типа "купэ" чтобы разграничить кухню с большой гостиной комнатой.
-                      </p>
+                      <a href="#" class="block mt-2">
+                        <p class="text-base font-semibold text-gray-900">
+                          ул. Республиканская - 102 м/кв
+                        </p>
+                        <p class="mt-3 text-base text-gray-500">
+                          Ремонт новой трёхкомнатной квартиры в новом жилом комплексе был начат сразу после сдачи застройщиком дома в эксплуатацию. Дизайнер нашёл оптимальное решение в классических спокойных и светлых тонах. Прекрасным решением было поставить двери типа "купэ" чтобы разграничить кухню с большой гостиной комнатой.                        </p>
+                      </a>
                     </div>
                     <div class="mt-6 flex items-center">
                       <div class="flex-shrink-0">
                         <a href="#">
-                          <img class="h-12 w-12 rounded-full"
-                               src="/Logo/favicon.ico"
-                               alt="Roel Aufderehar3">
+                          <img class="h-10 w-10 rounded-full" src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="Daniela Metz">
                         </a>
                       </div>
                       <div class="ml-3">
                         <p class="text-sm font-medium text-gray-900">
-                          Герман Викторович
+                          <a href="#" class="hover:underline">
+                            Кристина
+                          </a>
                         </p>
                         <div class="flex space-x-1 text-sm text-gray-500">
+<!--                          <time datetime="2020-02-12">-->
+<!--                            Feb 12, 2020-->
+<!--                          </time>-->
                           <p>
-                            "Получилось чисто, как я хотел, спасибо "Гостремонт", что всё учли."
+                            "Получилось чисто, как я хотела, спасибо "Гостремонт", что всё учли."
                           </p>
                         </div>
                       </div>
