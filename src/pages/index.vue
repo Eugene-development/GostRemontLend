@@ -171,7 +171,7 @@
             </div>
             <div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
               <img class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
-                   src="/image/image1.jpeg" alt="main">
+                   src="/image/main7.jpg" alt="main">
               <!--                 src="https://noginsk-remont.ru/wp-content/uploads/2020/09/kosmetika.jpg" alt="">-->
               <!--                 src="https://stroy-okey.ru/wp-content/uploads/2020/10/2020-10-21_14-50-01.png" alt="">-->
               <!--             src="https://remont-kvartir-v-msk.ru/uploads/posts/2016-04/1459917460_istock_000016196507large_shironosov.jpg" alt="">-->
@@ -447,7 +447,7 @@
                 <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
                   <div class="flex-shrink-0">
                     <img class="h-48 w-full object-cover"
-                         src="/image/1.jpeg"
+                         src="/image/loft.jpg"
                          alt="loft"
                     >
                   </div>
@@ -499,19 +499,19 @@
                 <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
                   <div class="flex-shrink-0">
                     <img class="h-48 w-full object-cover"
-                         src="/image/2.jpeg"
+                         src="/image/sovr.jpg"
                          alt="modern">
                   </div>
                   <div class="flex-1 bg-white p-6 flex flex-col justify-between">
                     <div class="flex-1">
                       <p class="text-sm font-medium text-cyan-600">
                         <a href="#" class="hover:underline">
-                          Стиль Модерн
+                          Современный стиль
                         </a>
                       </p>
                       <a href="#" class="block mt-2">
                         <p class="text-base font-semibold text-gray-900">
-                          ул. Космонавта Комарова - 42 кв/м
+                          ул. Космонавта Комарова - 62 кв/м
                         </p>
                         <p class="mt-3 text-base text-gray-500">
                           Проект обновления квартиры в кирпичной пятиэтажки застройки конца 70-х годов. Материалы подобранные к проекту создали лёгкое и светлое настроение от пребывания в этой квартире. Все пожелания заказчика были учтены и реализованы в полной мере, есть даже рабочая зона.                        </p>
@@ -544,7 +544,7 @@
 
                 <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
                   <div class="flex-shrink-0">
-                    <img class="h-48 w-full object-cover" src="https://images.unsplash.com/photo-1492724441997-5dc865305da7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80" alt="">
+                    <img class="h-48 w-full object-cover" src="/image/classic.jpg" alt="">
                   </div>
                   <div class="flex-1 bg-white p-6 flex flex-col justify-between">
                     <div class="flex-1">
