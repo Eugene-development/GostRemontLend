@@ -882,35 +882,11 @@
 </template>
 
 <script>
-import { mapActions, mapGetters } from "vuex";
+import Actions from "~/mixins/mapping/actions"
+import Getters from "~/mixins/mapping/getters"
 
 export default {
-  methods: {
-    ...mapActions({
-      'updatePhone':'leads/phone/updatePhone',
-      'updateMeasurementName': 'leads/measurement/updateMeasurementName',
-      'updateMeasurementPhone': 'leads/measurement/updateMeasurementPhone',
-      'updateMeasurementAddress': 'leads/measurement/updateMeasurementAddress',
-      'updateMeasurementTime': 'leads/measurement/updateMeasurementTime',
-      'updateMeasurementComment': 'leads/measurement/updateMeasurementComment',
-      'sendPhone': 'leads/phone/sendPhone',
-      'changeVisibleFormMeasurement': 'leads/measurement/changeVisibleFormMeasurement',
-      'sendMeasurement': 'leads/measurement/sendMeasurement'
-    })
-  },
-  computed: {
-    ...mapGetters({
-      'rulePhone': 'leads/phone/rulePhone',
-      'ruleEmail': 'leads/email/ruleEmail',
-      'ruleMeasurementName': 'leads/measurement/ruleMeasurementName',
-      'ruleMeasurementPhone': 'leads/measurement/ruleMeasurementPhone',
-      'ruleMeasurementAddress': 'leads/measurement/ruleMeasurementAddress',
-      'ruleMeasurementTime': 'leads/measurement/ruleMeasurementTime',
-      'ruleMeasurementComment': 'leads/measurement/ruleMeasurementComment',
-      'visibleFormPhone': 'leads/phone/visibleFormPhone',
-      'visibleFormMeasurement': 'leads/measurement/visibleFormMeasurement'
-    }),
-  },
+  mixins: [Actions, Getters]
 }
 </script>
 
