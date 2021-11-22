@@ -1,6 +1,8 @@
 import { mapActions } from "vuex";
+import Getters from "~/mixins/mapping/getters";
 
 export default {
+  mixins: [Getters],
   methods: {
     ...mapActions({
       'updatePhone':'leads/phone/updatePhone',

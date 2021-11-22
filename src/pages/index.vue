@@ -31,7 +31,7 @@
                   <a href="#anchor2" class="text-center font-medium text-white hover:text-gray-300">Решение</a>
                   <a href="#anchor3" class="text-base font-medium text-white hover:text-gray-300">Стиль</a>
                   <a href="#anchor4" class="text-base font-medium text-white hover:text-gray-300">Замер</a>
-<!--                  <a href="#anchor5" class="text-base font-medium text-white hover:text-gray-300">Галерея</a>-->
+                  <!--                  <a href="#anchor5" class="text-base font-medium text-white hover:text-gray-300">Галерея</a>-->
                   <a href="#anchor6" class="text-base font-medium text-white hover:text-gray-300">Контакты</a>
                 </div>
               </div>
@@ -39,7 +39,8 @@
                 <p class="text-xl font-medium text-white hover:text-gray-300">
                   +7 (831) 423-23-89
                 </p>
-                <button @click="changeVisibleFormMeasurement" type="button" class="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md text-white bg-gradient-to-r from-green-600 to-cyan-700">
+                <button @click="changeVisibleFormMeasurement" type="button"
+                        class="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md text-white bg-gradient-to-r from-green-600 to-cyan-700">
                   Записаться на замер
                 </button>
               </div>
@@ -56,47 +57,47 @@
               From: "opacity-100 scale-100"
               To: "opacity-0 scale-95"
           -->
-  <!--        <div class="absolute top-0 inset-x-0 p-2 transition transform origin-top md:hidden">-->
-  <!--          <div class="rounded-lg shadow-md  ring-1 ring-black ring-opacity-5 overflow-hidden">-->
-  <!--            <div class="px-5 pt-4 flex items-center justify-between">-->
-  <!--              <div>-->
-  <!--                <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/workflow-mark-green-500-cyan-600.svg"-->
-  <!--                     alt="">-->
-  <!--              </div>-->
-  <!--              <div class="-mr-2">-->
-  <!--                <button type="button"-->
-  <!--                        class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-cyan-600">-->
-  <!--                  <span class="sr-only">Close menu</span>-->
-  <!--                  &lt;!&ndash; Heroicon name: outline/x &ndash;&gt;-->
-  <!--                  <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"-->
-  <!--                       stroke="currentColor" aria-hidden="true">-->
-  <!--                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>-->
-  <!--                  </svg>-->
-  <!--                </button>-->
-  <!--              </div>-->
-  <!--            </div>-->
-  <!--            <div class="pt-5 pb-6">-->
-  <!--              <div class="px-2 space-y-1">-->
-  <!--                <a href="#" class="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:bg-gray-50">Product</a>-->
+          <!--        <div class="absolute top-0 inset-x-0 p-2 transition transform origin-top md:hidden">-->
+          <!--          <div class="rounded-lg shadow-md  ring-1 ring-black ring-opacity-5 overflow-hidden">-->
+          <!--            <div class="px-5 pt-4 flex items-center justify-between">-->
+          <!--              <div>-->
+          <!--                <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/workflow-mark-green-500-cyan-600.svg"-->
+          <!--                     alt="">-->
+          <!--              </div>-->
+          <!--              <div class="-mr-2">-->
+          <!--                <button type="button"-->
+          <!--                        class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-cyan-600">-->
+          <!--                  <span class="sr-only">Close menu</span>-->
+          <!--                  &lt;!&ndash; Heroicon name: outline/x &ndash;&gt;-->
+          <!--                  <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"-->
+          <!--                       stroke="currentColor" aria-hidden="true">-->
+          <!--                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>-->
+          <!--                  </svg>-->
+          <!--                </button>-->
+          <!--              </div>-->
+          <!--            </div>-->
+          <!--            <div class="pt-5 pb-6">-->
+          <!--              <div class="px-2 space-y-1">-->
+          <!--                <a href="#" class="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:bg-gray-50">Product</a>-->
 
-  <!--                <a href="#" class="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:bg-gray-50">Features</a>-->
+          <!--                <a href="#" class="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:bg-gray-50">Features</a>-->
 
-  <!--                <a href="#" class="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:bg-gray-50">Marketplace</a>-->
+          <!--                <a href="#" class="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:bg-gray-50">Marketplace</a>-->
 
-  <!--                <a href="#" class="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:bg-gray-50">Company</a>-->
-  <!--              </div>-->
-  <!--              <div class="mt-6 px-5">-->
-  <!--                <a href="#"-->
-  <!--                   class="block text-center w-full py-3 px-4 rounded-md shadow bg-gradient-to-r from-green-500 to-cyan-600 text-white font-medium hover:from-green-600 hover:to-cyan-700">Start-->
-  <!--                  free trial</a>-->
-  <!--              </div>-->
-  <!--              <div class="mt-6 px-5">-->
-  <!--                <p class="text-center text-base font-medium text-gray-500">Existing customer? <a href="#" class="text-gray-900 hover:underline">Login</a>-->
-  <!--                </p>-->
-  <!--              </div>-->
-  <!--            </div>-->
-  <!--          </div>-->
-  <!--        </div>-->
+          <!--                <a href="#" class="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:bg-gray-50">Company</a>-->
+          <!--              </div>-->
+          <!--              <div class="mt-6 px-5">-->
+          <!--                <a href="#"-->
+          <!--                   class="block text-center w-full py-3 px-4 rounded-md shadow bg-gradient-to-r from-green-500 to-cyan-600 text-white font-medium hover:from-green-600 hover:to-cyan-700">Start-->
+          <!--                  free trial</a>-->
+          <!--              </div>-->
+          <!--              <div class="mt-6 px-5">-->
+          <!--                <p class="text-center text-base font-medium text-gray-500">Existing customer? <a href="#" class="text-gray-900 hover:underline">Login</a>-->
+          <!--                </p>-->
+          <!--              </div>-->
+          <!--            </div>-->
+          <!--          </div>-->
+          <!--        </div>-->
         </header>
         <main>
 
@@ -159,7 +160,8 @@
                             </span>
                           </div>
                         </div>
-                        <p class="mt-3 text-sm text-gray-300 sm:mt-4">В течении дня с вами свяжется специалист и даст подробную консультацию.
+                        <p class="mt-3 text-sm text-gray-300 sm:mt-4">В течении дня с вами свяжется специалист и даст
+                          подробную консультацию.
                           <br>Услуга бесплатная.</p>
                       </form>
                     </div>
@@ -234,7 +236,8 @@
                   Решили сделать ремонт?
                 </p>
                 <p class="mt-5 max-w-prose mx-auto text-xl text-gray-500">
-                  Это интересный и творческий процесс, который разнообразит вашу жизнь и превнесёт множество красок в прямом и переносном смысле. Но не всегда &#129299;
+                  Это интересный и творческий процесс, который разнообразит вашу жизнь и превнесёт множество красок в
+                  прямом и переносном смысле. Но не всегда &#129299;
                 </p>
               </div>
               <div class="mt-12 ">
@@ -252,7 +255,8 @@
                 Порой лучше довериться профессионалам
               </p>
               <p class="mt-5 max-w-prose mx-auto text-xl text-gray-500">
-                Мы предлагаем свои услуги тем кто дорожит своим временем и нервами. Наши специалисты с большим опытом и разнообразным инструментом решат ваши вопросы в оговоренные сроки и с наилучшим качеством работ
+                Мы предлагаем свои услуги тем кто дорожит своим временем и нервами. Наши специалисты с большим опытом и
+                разнообразным инструментом решат ваши вопросы в оговоренные сроки и с наилучшим качеством работ
               </p>
               <div class="mt-12">
                 <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
@@ -418,7 +422,11 @@
                           d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z"/>
                       </svg>
                       <p class="mt-6 text-xl font-medium text-white">
-                        Мы стараемся делать наши услуги максимально выгодными для наших заказчиков, и теперь мы рады сообщить вам, что дизайн интерьера стал доступнее! Компания "ГостРемонт" предлагает уникальную возможность получить дизайн-проект бесплатно при заказе ремонта. Ремонт, проведенный в соответствии с дизайн-проектом, имеет массу преимуществ, ведь в нем продумана каждая деталь. Ждём вас.
+                        Мы стараемся делать наши услуги максимально выгодными для наших заказчиков, и теперь мы рады
+                        сообщить вам, что дизайн интерьера стал доступнее! Компания "ГостРемонт" предлагает уникальную
+                        возможность получить дизайн-проект бесплатно при заказе ремонта. Ремонт, проведенный в
+                        соответствии с дизайн-проектом, имеет массу преимуществ, ведь в нем продумана каждая деталь.
+                        Ждём вас.
                       </p>
                     </div>
                     <footer class="mt-6">
@@ -440,10 +448,12 @@
                   Выбирайте ваш стиль
                 </p>
                 <p class="mt-5 mx-auto max-w-prose text-xl text-gray-500">
-                  Более 1000 квартир отремонтировано "под ключ"нашими стараниями! В разном стиле и разным масштабом работ. В любом случае наша экспертиза позволяет решить широкий спектр задач.
+                  Более 1000 квартир отремонтировано "под ключ"нашими стараниями! В разном стиле и разным масштабом
+                  работ. В любом случае наша экспертиза позволяет решить широкий спектр задач.
                 </p>
               </div>
-              <div class="mt-12 mx-auto max-w-md px-4 grid gap-8 sm:max-w-lg sm:px-6 lg:px-8 lg:grid-cols-3 lg:max-w-7xl">
+              <div
+                class="mt-12 mx-auto max-w-md px-4 grid gap-8 sm:max-w-lg sm:px-6 lg:px-8 lg:grid-cols-3 lg:max-w-7xl">
                 <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
                   <div class="flex-shrink-0">
                     <img class="h-48 w-full object-cover"
@@ -464,7 +474,8 @@
                         </p>
                         <p class="mt-3 text-base text-gray-500">
                           Однокомнатную квартиру застройщик сдал без какой-либо отделки.
-                          Компания "Гостремонт" разработала и согласовала дизайн-проект будущей квартиры с планировавочным
+                          Компания "Гостремонт" разработала и согласовала дизайн-проект будущей квартиры с
+                          планировавочным
                           решением и функциональным дизайном в стиле LOFT.
                           Сохранив обособленным спальное место, нам удалось расширить жизненное пространство для молодой
                           семьи.
@@ -474,7 +485,9 @@
                     <div class="mt-6 flex items-center">
                       <div class="flex-shrink-0">
                         <a href="#">
-                          <img class="h-10 w-10 rounded-full" src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="Roel Aufderehar">
+                          <img class="h-10 w-10 rounded-full"
+                               src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                               alt="Roel Aufderehar">
                         </a>
                       </div>
                       <div class="ml-3">
@@ -484,9 +497,9 @@
                           </a>
                         </p>
                         <div class="flex space-x-1 text-sm text-gray-500">
-<!--                          <time datetime="2020-03-16">-->
-<!--                            16 марта 2020-->
-<!--                          </time>-->
+                          <!--                          <time datetime="2020-03-16">-->
+                          <!--                            16 марта 2020-->
+                          <!--                          </time>-->
                           <p>
                             "Мы с женой даже не ожидали, что получится так красиво и стильно."
                           </p>
@@ -514,13 +527,17 @@
                           ул. Космонавта Комарова - 62 кв/м
                         </p>
                         <p class="mt-3 text-base text-gray-500">
-                          Проект обновления квартиры в кирпичной пятиэтажки застройки конца 70-х годов. Материалы подобранные к проекту создали лёгкое и светлое настроение от пребывания в этой квартире. Все пожелания заказчика были учтены и реализованы в полной мере, есть даже рабочая зона.                        </p>
+                          Проект обновления квартиры в кирпичной пятиэтажки застройки конца 70-х годов. Материалы
+                          подобранные к проекту создали лёгкое и светлое настроение от пребывания в этой квартире. Все
+                          пожелания заказчика были учтены и реализованы в полной мере, есть даже рабочая зона. </p>
                       </a>
                     </div>
                     <div class="mt-6 flex items-center">
                       <div class="flex-shrink-0">
                         <a href="#">
-                          <img class="h-10 w-10 rounded-full" src="https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="Brenna Goyette">
+                          <img class="h-10 w-10 rounded-full"
+                               src="https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                               alt="Brenna Goyette">
                         </a>
                       </div>
                       <div class="ml-3">
@@ -530,9 +547,9 @@
                           </a>
                         </p>
                         <div class="space-x-1 text-sm text-gray-500">
-<!--                          <time datetime="2020-03-10">-->
-<!--                            24 января 2021-->
-<!--                          </time>-->
+                          <!--                          <time datetime="2020-03-10">-->
+                          <!--                            24 января 2021-->
+                          <!--                          </time>-->
                           <p>
                             "Всё устроило более чем. По срокам всё соблюдено на отлично!"
                           </p>
@@ -558,13 +575,18 @@
                           ул. Республиканская - 102 м/кв
                         </p>
                         <p class="mt-3 text-base text-gray-500">
-                          Ремонт новой трёхкомнатной квартиры в новом жилом комплексе был начат сразу после сдачи застройщиком дома в эксплуатацию. Дизайнер нашёл оптимальное решение в классических спокойных и светлых тонах. Прекрасным решением было поставить двери типа "купэ" чтобы разграничить кухню с большой гостиной комнатой.                        </p>
+                          Ремонт новой трёхкомнатной квартиры в новом жилом комплексе был начат сразу после сдачи
+                          застройщиком дома в эксплуатацию. Дизайнер нашёл оптимальное решение в классических спокойных
+                          и светлых тонах. Прекрасным решением было поставить двери типа "купэ" чтобы разграничить кухню
+                          с большой гостиной комнатой. </p>
                       </a>
                     </div>
                     <div class="mt-6 flex items-center">
                       <div class="flex-shrink-0">
                         <a href="#">
-                          <img class="h-10 w-10 rounded-full" src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="Daniela Metz">
+                          <img class="h-10 w-10 rounded-full"
+                               src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                               alt="Daniela Metz">
                         </a>
                       </div>
                       <div class="ml-3">
@@ -574,9 +596,9 @@
                           </a>
                         </p>
                         <div class="flex space-x-1 text-sm text-gray-500">
-<!--                          <time datetime="2020-02-12">-->
-<!--                            Feb 12, 2020-->
-<!--                          </time>-->
+                          <!--                          <time datetime="2020-02-12">-->
+                          <!--                            Feb 12, 2020-->
+                          <!--                          </time>-->
                           <p>
                             "Получилось чисто, как я хотела, спасибо "Гостремонт", что всё учли."
                           </p>
@@ -588,6 +610,87 @@
               </div>
             </div>
           </div>
+
+
+
+          <div class="relative py-16 bg-white overflow-hidden">
+            <div class="hidden lg:block lg:absolute lg:inset-y-0 lg:h-full lg:w-full">
+              <div class="relative h-full text-lg max-w-prose mx-auto" aria-hidden="true">
+                <svg class="absolute top-12 left-full transform translate-x-32" width="404" height="384" fill="none" viewBox="0 0 404 384">
+                  <defs>
+                    <pattern id="74b3fd99-0a6f-4271-bef2-e80eeafdf357" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+                      <rect x="0" y="0" width="4" height="4" class="text-gray-200" fill="currentColor" />
+                    </pattern>
+                  </defs>
+                  <rect width="404" height="384" fill="url(#74b3fd99-0a6f-4271-bef2-e80eeafdf357)" />
+                </svg>
+                <svg class="absolute top-1/2 right-full transform -translate-y-1/2 -translate-x-32" width="404" height="384" fill="none" viewBox="0 0 404 384">
+                  <defs>
+                    <pattern id="f210dbf6-a58d-4871-961e-36d5016a0f49" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+                      <rect x="0" y="0" width="4" height="4" class="text-gray-200" fill="currentColor" />
+                    </pattern>
+                  </defs>
+                  <rect width="404" height="384" fill="url(#f210dbf6-a58d-4871-961e-36d5016a0f49)" />
+                </svg>
+                <!--        <svg class="absolute bottom-12 left-full transform translate-x-32" width="404" height="384" fill="none" viewBox="0 0 404 384">-->
+                <!--          <defs>-->
+                <!--            <pattern id="d3eb07ae-5182-43e6-857d-35c643af9034" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">-->
+                <!--              <rect x="0" y="0" width="4" height="4" class="text-gray-200" fill="currentColor" />-->
+                <!--            </pattern>-->
+                <!--          </defs>-->
+                <!--          <rect width="404" height="384" fill="url(#d3eb07ae-5182-43e6-857d-35c643af9034)" />-->
+                <!--        </svg>-->
+              </div>
+            </div>
+
+            <div class="relative px-4 sm:px-6 lg:px-8">
+              <div class="text-lg max-w-prose mx-auto">
+                <h1>
+              <span
+                class="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-main sm:text-4xl">Ремонт квартир под ключ</span>
+                </h1>
+                <p class="mt-8 text-xl text-gray-500 leading-8">
+                  Планируете ремонт? доверьтесь ндобросовестному исполнителю! Хотите, чтобы ваша квартира
+                  заиграла новыми красками и при этом не выйти из бюджета?<br>
+                  Тогда вы попали по адресу: ремонтно-строительная компания «Гостремонт» - надежный партнер, проверенный
+                  временем и сотнями успешными работами в портфолио. <br>
+                  Компания гарантирует качественный ремонт квартир под ключ в Нижнем Новгороде. Предлагает отделку
+                  внутренних помещений (эконом, комфорт, премиум), а также занимается установкой натяжных потолков различной
+                  категории сложности (стандартные, двухуровневые, парящие).<br>
+                  «Гостремонт» - это:
+                </p>
+                <ul class="text-xl text-gray-500 leading-8">
+                  <li>
+                    <span class="font-bold">честный и прозрачный расчет</span><br>
+                    Окончательная стоимость работ не меняется с момента заключения контракта.
+                    Мы следим за неукоснительным выполнением договорённостей.
+                  </li>
+                  <li>
+                    <span class="font-bold">качественные материалы</span><br>
+                    Только сертифицированное оборудование и материалы, соответствующие отечественным и мировым стандартам,
+                    приобрести которые вы так же можете у нас по низким ценам
+                  </li>
+                  <li>
+                    <span class="font-bold">внимание к каждому клиенту</span><br>
+                    Мы ценим каждого клиента, обратившегося к нам и стремимся делать свою работу так, чтобы видеть
+                    искреннюю радость на лице клиента по окончании выполнения работ.
+                  </li>
+                </ul>
+                <p class="text-xl text-gray-500 leading-8">
+                  Ждём ваших обращений в нашу компанию! Наши менеджеры постараются дать вам исчерпывающую информацию.
+                </p>
+              </div>
+              <div class="mt-6 prose prose-indigo prose-lg text-gray-500 mx-auto">
+                <!--        <h3>Ждём вас!!!</h3>-->
+                <figure>
+                  <!--          <img class="w-full rounded-lg" src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&auto=format&fit=facearea&w=1310&h=873&q=80&facepad=3" alt="" width="1310" height="873">-->
+                </figure>
+                <!--        <p>Purus morbi dignissim senectus mattis <a href="#">adipiscing</a>. Amet, massa quam varius orci dapibus volutpat cras. In amet eu ridiculus leo sodales cursus tristique. Tincidunt sed tempus ut viverra ridiculus non molestie. Gravida quis fringilla amet eget dui tempor dignissim. Facilisis auctor venenatis varius nunc, congue erat ac. Cras fermentum convallis quam.</p>-->
+                <!--        <p>Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris semper sed amet vitae sed turpis id. Id dolor praesent donec est. Odio penatibus risus viverra tellus varius sit neque erat velit.</p>-->
+              </div>
+            </div>
+          </div>
+
 
           <!-- CTA Section -->
           <div class="relative bg-gray-900" id="anchor4">
@@ -607,15 +710,18 @@
                   Мы готовы помочь вам
                 </p>
                 <p class="mt-3 text-lg text-gray-300">
-                  Сотрудники нашей компании постараются грамотно подсказать какие варианты наиболее приемлемы в вашей ситуации. Оптимальный баланс цены и качества это цель, которая устроит и нас и вас на каждом этапе сотрудничества.
+                  Сотрудники нашей компании постараются грамотно подсказать какие варианты наиболее приемлемы в вашей
+                  ситуации. Оптимальный баланс цены и качества это цель, которая устроит и нас и вас на каждом этапе
+                  сотрудничества.
                 </p>
                 <div class="mt-8">
                   <div class="inline-flex rounded-md shadow">
                     <button @click.prevent="changeVisibleFormMeasurement"
-                       class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-gray-50 bg-gradient-to-r from-green-600 to-cyan-700">
+                            class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-gray-50 bg-gradient-to-r from-green-600 to-cyan-700">
                       Записаться на замер
                       <!-- Heroicon name: solid/external-link -->
-                      <svg class="-mr-1 ml-3 h-5 w-5 text-gray-50" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
+                      <svg class="-mr-1 ml-3 h-5 w-5 text-gray-50" xmlns="http://www.w3.org/2000/svg"
+                           viewBox="0 0 20 20"
                            fill="currentColor" aria-hidden="true">
                         <path
                           d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z"/>
@@ -627,6 +733,7 @@
               </div>
             </div>
           </div>
+
         </main>
 
 
@@ -639,26 +746,27 @@
           leave-to-class="translate-x-full"
         >
 
-        <div v-if="visibleFormMeasurement" class="fixed inset-0 overflow-hidden" aria-labelledby="slide-over-title" role="dialog" aria-modal="true">
-          <div class="absolute inset-0 overflow-hidden">
-            <!-- Background overlay, show/hide based on slide-over state. -->
-            <div  class="absolute inset-0" aria-hidden="true">
-              <div  class="fixed inset-y-0 right-0 pl-10 max-w-full flex sm:pl-16">
-                <!--
-                  Slide-over panel, show/hide based on slide-over state.
+          <div v-if="visibleFormMeasurement" class="fixed inset-0 overflow-hidden" aria-labelledby="slide-over-title"
+               role="dialog" aria-modal="true">
+            <div class="absolute inset-0 overflow-hidden">
+              <!-- Background overlay, show/hide based on slide-over state. -->
+              <div class="absolute inset-0" aria-hidden="true">
+                <div class="fixed inset-y-0 right-0 pl-10 max-w-full flex sm:pl-16">
+                  <!--
+                    Slide-over panel, show/hide based on slide-over state.
 
-                  Entering: "transform transition ease-in-out duration-500 sm:duration-700"
-                    From: "translate-x-full"
-                    To: "translate-x-0"
-                  Leaving: "transform transition ease-in-out duration-500 sm:duration-700"
-                    From: "translate-x-0"
-                    To: "translate-x-full"
-                -->
+                    Entering: "transform transition ease-in-out duration-500 sm:duration-700"
+                      From: "translate-x-full"
+                      To: "translate-x-0"
+                    Leaving: "transform transition ease-in-out duration-500 sm:duration-700"
+                      From: "translate-x-0"
+                      To: "translate-x-full"
+                  -->
 
 
-
-                  <div  class="w-screen max-w-2xl">
-                    <form @submit.prevent="sendMeasurement" class="h-full flex flex-col bg-white shadow-xl overflow-y-scroll">
+                  <div class="w-screen max-w-2xl">
+                    <form @submit.prevent="sendMeasurement"
+                          class="h-full flex flex-col bg-white shadow-xl overflow-y-scroll">
                       <div class="flex-1">
                         <!-- Header -->
                         <div class="px-4 py-6 bg-gray-50 sm:px-6">
@@ -672,11 +780,14 @@
                               </p>
                             </div>
                             <div class="h-7 flex items-center">
-                              <button @click="changeVisibleFormMeasurement" type="button" class="text-gray-400 hover:text-gray-500">
+                              <button @click="changeVisibleFormMeasurement" type="button"
+                                      class="text-gray-400 hover:text-gray-500">
                                 <span class="sr-only">Close panel</span>
                                 <!-- Heroicon name: outline/x -->
-                                <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                                <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                     stroke="currentColor" aria-hidden="true">
+                                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M6 18L18 6M6 6l12 12"/>
                                 </svg>
                               </button>
                             </div>
@@ -726,7 +837,8 @@
                           <!-- Project name -->
                           <div class="space-y-1 px-4 sm:space-y-0 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6 sm:py-5">
                             <div>
-                              <label for="client-phone" class="block text-sm font-medium text-gray-900 sm:mt-px sm:pt-2">
+                              <label for="client-phone"
+                                     class="block text-sm font-medium text-gray-900 sm:mt-px sm:pt-2">
                                 Контактный телефон
                               </label>
                             </div>
@@ -761,7 +873,8 @@
                           <!-- Project description -->
                           <div class="space-y-1 px-4 sm:space-y-0 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6 sm:py-5">
                             <div>
-                              <label for="project-description" class="block text-sm font-medium text-gray-900 sm:mt-px sm:pt-2">
+                              <label for="project-description"
+                                     class="block text-sm font-medium text-gray-900 sm:mt-px sm:pt-2">
                                 Комментарий
                               </label>
                             </div>
@@ -779,7 +892,8 @@
 
                           <!-- Privacy -->
                           <fieldset>
-                            <div class="space-y-2 px-4 sm:space-y-0 sm:grid sm:grid-cols-3 sm:gap-4 sm:items-start sm:px-6 sm:py-5">
+                            <div
+                              class="space-y-2 px-4 sm:space-y-0 sm:grid sm:grid-cols-3 sm:gap-4 sm:items-start sm:px-6 sm:py-5">
                               <div class="space-y-5 sm:col-span-2">
                                 <!--                        <div class="space-y-5 sm:mt-0">-->
                                 <!--                          <div class="relative flex items-start">-->
@@ -825,8 +939,6 @@
                                 <!--                        <hr class="border-gray-200">-->
 
 
-
-
                                 <!--                        <div class="flex flex-col space-between space-y-4 sm:flex-row sm:items-center sm:space-between sm:space-y-0">-->
                                 <!--                          <div class="flex-1">-->
                                 <!--                            <a href="#" class="group flex items-center text-sm text-green-600 hover:text-green-900 font-medium space-x-2.5">-->
@@ -860,20 +972,22 @@
                       <!-- Action buttons -->
                       <div class="flex-shrink-0 px-4 border-t border-gray-200 py-5 sm:px-6">
                         <div class="space-x-3 flex justify-end">
-                          <button @click="changeVisibleFormMeasurement" type="button" class="bg-white py-2 px-4 border border-gray-300 rounded-md shadow-sm text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500">
+                          <button @click="changeVisibleFormMeasurement" type="button"
+                                  class="bg-white py-2 px-4 border border-gray-300 rounded-md shadow-sm text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500">
                             Отменить
                           </button>
-                          <button type="submit" class="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-gradient-to-r from-green-600 to-cyan-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500">
+                          <button type="submit"
+                                  class="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-gradient-to-r from-green-600 to-cyan-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500">
                             Отправить
                           </button>
                         </div>
                       </div>
                     </form>
                   </div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
         </transition>
 
       </div>
@@ -883,10 +997,9 @@
 
 <script>
 import Actions from "~/mixins/mapping/actions"
-import Getters from "~/mixins/mapping/getters"
 
 export default {
-  mixins: [Actions, Getters]
+  mixins: [Actions]
 }
 </script>
 
